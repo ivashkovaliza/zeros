@@ -1,4 +1,4 @@
-function zeros(str) {
+module.exports = function zeros(str) {
     var factorialsArray = str.split('*');
     var singleFactorialArray = [];
     var doubleFactorialArray = [];
@@ -58,5 +58,3 @@ function getAmountOfFives(currentNumber) {
 
     return amountOfFives;
 }
-
-console.log(zeros('5!'));
